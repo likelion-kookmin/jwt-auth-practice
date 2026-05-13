@@ -13,5 +13,5 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
 
 jwt:
-  secret: dGhpcyBpcyBhIHZlcnkgbG9uZyB0ZXN0IHNlY3JldCBrZXkgZm9yIGp3dCE=
+  secret: ${JWT_TEST_SECRET}
   expiration: 3600000
